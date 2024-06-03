@@ -1,20 +1,18 @@
 import { useNavigate } from "react-router-dom";
 import React, { useEffect } from 'react';
-import Project from '../componets/Project';
-export default function Portfolio(){
 
-
+export default function Index() {
     const navigate = useNavigate();
     useEffect(() => {
         // Call navigate() inside the useEffect hook
-        navigate('/portfolio');
+        navigate('/aboutme');
     }, []);
 
-
-    return(
+    return (
         <div>
-                <Project/>
+            <p className="textContent">
+            
+            </p>
         </div>
     )
-
 }

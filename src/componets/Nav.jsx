@@ -1,8 +1,8 @@
-import React, { useState, useEffect } from "react";
-import { Link } from 'react-router-dom';
+import React, { useState, useEffect, useLocation } from "react";
+import { NavLink  } from 'react-router-dom';
 
 export default function nav() {
-    const [currentSection, setCurrentSection] = useState('');
+    const [setCurrentSection] = useState('');
 
     useEffect(() => {
         const handleScroll = () => {
@@ -27,20 +27,19 @@ export default function nav() {
             <nav>
                 <ul>
                     <li>
-                        <Link to="/aboutme" className={currentSection === 'about-me' ? 'highlighted' : ''}>About Me</Link>
+                        <NavLink to="/aboutme">About Me</NavLink>
                     </li>
                     <li>
-                        <Link to="/contact" className={currentSection === 'contact' ? 'highlighted' : ''}>Contact</Link>
+                        <NavLink to="/contact">Contact</NavLink>
                     </li>
                     <li>
-                        <Link to="/portfolio" className={currentSection === 'portfolio' ? 'highlighted' : ''}>Portfolio</Link>
+                        <NavLink to="/portfolio">Portfolio</NavLink>
                     </li>
                     <li>
-                        <Link to="/resume" className={currentSection === 'resume' ? 'highlighted' : ''}>Resume</Link>
+                        <NavLink to="/resume">Resume</NavLink>
                     </li>
                 </ul>
             </nav>
         </div>
     );
 };
-

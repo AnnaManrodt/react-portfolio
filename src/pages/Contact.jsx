@@ -19,11 +19,11 @@ export default function Contact() {
         <FormControl type="text" placeholder="John Doe" required />
     </FormGroup>
     <FormGroup className="mb-3">
-        <FormLabel>Email address</FormLabel>
+        <FormLabel>Email address:</FormLabel>
         <FormControl type="email" placeholder="Enter email" required />
     </FormGroup>
     <FormGroup className="mb-3">
-        <FormLabel>Message</FormLabel>
+        <FormLabel>Message:</FormLabel>
         <FormControl as="textarea" rows={3} required />
     </FormGroup>
     <Button type="submit" variant="primary">Submit</Button>

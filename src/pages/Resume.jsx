@@ -13,9 +13,9 @@ export default function Resume() {
     return (
         <div>
 
-            <a href="/resume.pdf" download>Click Here To Download Resume</a>
+            <a href="/resume.pdf" download className="download">Click Here To Download Resume</a>
             <h3>My Proficiencies</h3>
-            <ul>
+            <ul className="Proficiencies">
                 <li>Javascript</li>
                 <li>CSS</li>
                 <li>HTML</li>
