@@ -11,7 +11,7 @@ export default function AboutMe() {
 
     return (
         <div>
-            <img className="profileImg" src="../imgs/IMG_6222-min.JPG" alt="Img of me" />
+            <img className="profileImg" src="/imgs/IMG_6222-min.JPG" alt="Img of me" />
             <p className="textContent">
             Highly skilled junior developer with experience in special education and
 psychology to provide a unique perspective on web development. Earned a
