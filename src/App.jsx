@@ -10,7 +10,7 @@ import Resume from './pages/Resume';
 
 import Header from './componets/Header'
 import Footer from './componets/Footer';
-import Nav from './componets/Nav';
+
 
 export default function App() {
   const [currentSection, setCurrentSection] = useState('About Me')
@@ -19,7 +19,6 @@ export default function App() {
     <>
       <BrowserRouter>
         <Header />
-        <Nav />
         <Routes>
           <Route path="/" element={<Index />} />
           <Route path="/aboutme" element={<AboutMe />} />

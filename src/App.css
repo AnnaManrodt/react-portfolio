@@ -1,4 +1,4 @@
-#root {
+/* #root {
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
@@ -12,10 +12,9 @@
 
 body {
   background: url("../imgs/annie-spratt-0ZPSX_mQ3xI-unsplash.jpg") center/cover
-    no-repeat; /* Shorthand for background properties */
+    no-repeat;
   font-family: "Viaoda Libre", serif;
 }
-
 .title {
   font-size: 100px;
   margin-bottom: 0%;
@@ -28,7 +27,6 @@ body {
 }
 
 ul {
-  /* list-style-type: none; */
   display: block;
   padding: 10px 15px;
   text-decoration: none;
@@ -118,7 +116,7 @@ body {
 }
 
 .footer {
-  /* margin-top: auto; */
+  /* margin-top: auto; 
   position: fixed;
   bottom: 0;
   left: 0;
@@ -134,4 +132,4 @@ body {
 
 .prof-title{
   font-size: 30px;
-}
+} */
