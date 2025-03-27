@@ -60,11 +60,11 @@ li {
   background-color: hsla(237, 100%, 70%, 0.103);
 
 }
-
+*/
 .profileImg {
   max-width: 20%;
 }
-
+/*
 .projectImgs {
   max-width: 100%;
 }
@@ -103,26 +103,17 @@ a.active {
 form button.btn {
   margin-top: 2rem;
 }
+*/
 
-.footerIcon {
-  margin-left: 10%;
-  margin-right: 10%;
-}
-
+/*
 body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
 }
+*/
 
-.footer {
-  /* margin-top: auto; 
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 70px;
-}
+/*
 .threeProjects{
   display: flex;
 }
@@ -133,3 +124,37 @@ body {
 .prof-title{
   font-size: 30px;
 } */
+
+
+
+/*  NEW CSS 03/2025 */
+
+.header {
+  display: flex;
+  justify-content: space-between; /* Space between title and nav */
+  align-items: center; /* Vertically center content */
+  padding: 20px 5%; /* Add some padding */
+  width: 100%;
+  /* background-color: #282c34; Optional background color */
+}
+
+/* Anna Thompson Link (Centered) */
+.title {
+  margin: 0;
+  font-size: 2rem;
+  text-align: center;
+  flex-grow: 1; /* This makes sure the link grows to take available space */
+}
+
+.myNameTitle {
+  text-decoration: none;
+  color: rgb(41, 100, 164); /* Text color */
+}
+
+/* Nav Component */
+nav {
+  /* Make sure the nav stays on the right side */
+  display: flex;
+  justify-content: flex-end;
+  width: auto;
+}

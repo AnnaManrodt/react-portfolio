@@ -1,0 +1,38 @@
+/* .footerIcon {
+    margin-left: 10%;
+    margin-right: 0%;
+}
+
+.footer {
+    margin-top: auto; 
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 70px;
+    background-color: green;
+    padding-top: 5px;
+} */
+
+.footer {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center the content horizontally */
+    justify-content: center; /* Center the content vertically */
+    padding: 0px;
+    background-color: #282c34; 
+    color: white;
+    height: 100px; /* Adjust this value to fit your footer content */
+}
+
+.social-icons {
+    display: flex;
+    justify-content: space-between; /* Distribute icons evenly */
+    width: 100%; /* Full width of the footer */
+    max-width: 400px; /* Max width for better control */
+    margin-bottom: 0px; /* Space between the icons and text */
+    margin-top: 10px;
+}
+
+.footerIcon {
+    margin: 0 10px; /* Space between each social icon */
+}
