@@ -1,8 +1,20 @@
 .profileImg {
+    float: left; /* Floats the image to the left */
+    margin-right: 20px; /* Adds space between the image and the text */
+    margin-bottom: 10px; 
     max-width: 20%;
     height: 250px;  /* Maintain the aspect ratio for circular images */
     border-radius: 50%;  /* This will make the image circular */
     object-fit: cover;  /* Ensures the image covers the circle properly */
     border: 3px solid #fff;  /* Optional: Add a border if desired */
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+}
+
+.textContent {
+    /* Optional: If you want to ensure the text has enough space around it */
+    line-height: 1.6; /* Makes the text a bit more readable */
+}
+.mainTextContent{
+    margin: 20px ;
+    /* border: 5px green solid; */
 }

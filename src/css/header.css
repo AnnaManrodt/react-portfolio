@@ -1,5 +1,6 @@
 /* Header Container */
 .header {
+    font-family: "Viaoda Libre", serif;
     display: flex;
     justify-content: space-between; /* Space between title and nav */
     align-items: center; /* Vertically center content */
@@ -19,11 +20,11 @@
 .myNameTitle {
     text-decoration: none;
     color: rgb(41, 100, 164); /* Text color */
+    font-size: 3.5rem;
 }
 
   /* Nav Component */
 nav {
-    /* Make sure the nav stays on the right side */
     display: flex;
     justify-content: flex-end;
     width: auto;

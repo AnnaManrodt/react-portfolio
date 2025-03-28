@@ -42,7 +42,7 @@ export default function Nav() {
             <CssBaseline />
 
             {/* AppBar (Navigation Bar) */}
-            <AppBar position="sticky" sx={{ backgroundColor: 'transparent', boxShadow: 'none' }}>
+            <AppBar position="fixed" sx={{ backgroundColor: 'transparent', boxShadow: 'none' }}>
                 <Toolbar>
                     {/* Hamburger Menu Icon */}
                     <IconButton edge="start" color="alarm" aria-label="menu" onClick={toggleDrawer}>

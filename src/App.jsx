@@ -1,4 +1,4 @@
-// import './App.css';
+import './App.css';
 import { useState } from 'react';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
@@ -27,7 +27,7 @@ export default function App() {
           <Route path="/resume" element={<Resume />} />
         </Routes>
       </BrowserRouter>
-      <Footer />
+      <Footer/>
     </>
   );
 }

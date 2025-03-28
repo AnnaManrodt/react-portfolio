@@ -2,11 +2,8 @@
 .MuiAppBar-root {
     position: fixed;
     top: 0;
-    z-index: 1100; /* Ensure it's on top of other content */
+    z-index: 1100;
 }
 
 /* Optional: Style the nav links to look better when active */
-.active-link {
-    font-weight: bold;
-    color: #ff9800; /* Highlight color for active link */
-}
+

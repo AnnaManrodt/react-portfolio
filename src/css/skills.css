@@ -1,0 +1,46 @@
+ul {
+    display: block;
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: 25px;
+  }
+  
+  li {
+    display: inline;
+    padding: 5px;
+  }
+  
+  /* .proficiencies {
+    list-style-type: disc;
+    max-width: 100vw;
+    text-align: center;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+  } */
+
+  .container1{
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  .prof-category{
+    text-align: center;
+  }
+  
+  
+  .proficiencies li {
+    width: 100px;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    list-style-type: disc;
+    width: 100%;
+    padding: 10px;
+    background-color: hsla(237, 100%, 70%, 0.103);
+  
+  }
+
+  .prof-title{
+    text-align: center;
+  }

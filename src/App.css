@@ -3,7 +3,7 @@
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
-}
+} */
 .viaoda-libre-regular {
   font-family: "Viaoda Libre", serif;
   font-weight: 400;
@@ -11,150 +11,27 @@
 }
 
 body {
-  background: url("../imgs/annie-spratt-0ZPSX_mQ3xI-unsplash.jpg") center/cover
+  background: url("./assets//imgs/annie-spratt-0ZPSX_mQ3xI-unsplash.jpg") center/cover
     no-repeat;
   font-family: "Viaoda Libre", serif;
-}
-.title {
-  font-size: 100px;
-  margin-bottom: 0%;
-  margin-top: 0%;
-  position: sticky;
-}
-
-.textContent {
-  font-size: 20px;
-}
-
-ul {
-  display: block;
-  padding: 10px 15px;
-  text-decoration: none;
-  font-size: 25px;
-}
-
-li {
-  display: inline;
-  padding: 5px;
-}
-
-.proficiencies {
-  list-style-type: disc;
-  max-width: 100vw;
-  text-align: center;
-  margin: 0 auto;
-  display: flex;
-  justify-content: space-evenly;
-}
-
-
-
-.proficiencies li {
-  width: 100px;
-  margin: 5px;
   display: flex;
   flex-direction: column;
-  list-style-type: disc;
-  width: 100%;
-  padding: 10px;
-  background-color: hsla(237, 100%, 70%, 0.103);
-
-}
-*/
-.profileImg {
-  max-width: 20%;
-}
-/*
-.projectImgs {
-  max-width: 100%;
+  min-height: 100vh;
 }
 
 a.active {
   text-decoration: underline;
 }
 
-.projectContainers {
-  width: 20vh;
-  text-align: center;
-  display: flex;
-  flex-direction: column-reverse;
-  margin-bottom: 2rem;
-  margin: 2rem;
-}
-
-.projectContainers a {
-  display: block;
-  color: #646cff;
-  font-size: 1.5rem;
-}
-
-.projectContainers a:hover {
-  text-decoration: underline;
-}
-
-.container {
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  flex-wrap: wrap;
-  gap: 1rem;
-}
-
-form button.btn {
-  margin-top: 2rem;
-}
-*/
-
-/*
-body {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-}
-*/
-
-/*
-.threeProjects{
-  display: flex;
-}
 .download{
   font-size: 30px;
 }
 
 .prof-title{
   font-size: 30px;
-} */
+} 
 
 
 
-/*  NEW CSS 03/2025 */
 
-.header {
-  display: flex;
-  justify-content: space-between; /* Space between title and nav */
-  align-items: center; /* Vertically center content */
-  padding: 20px 5%; /* Add some padding */
-  width: 100%;
-  /* background-color: #282c34; Optional background color */
-}
 
-/* Anna Thompson Link (Centered) */
-.title {
-  margin: 0;
-  font-size: 2rem;
-  text-align: center;
-  flex-grow: 1; /* This makes sure the link grows to take available space */
-}
-
-.myNameTitle {
-  text-decoration: none;
-  color: rgb(41, 100, 164); /* Text color */
-}
-
-/* Nav Component */
-nav {
-  /* Make sure the nav stays on the right side */
-  display: flex;
-  justify-content: flex-end;
-  width: auto;
-}

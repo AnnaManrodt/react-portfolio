@@ -13,7 +13,8 @@ export default function Header() {
                     </Link>
                     <Typography> Web Development & Design</Typography>
                 </h1>
-                <Nav />
+            
+                <Nav className='nav'/>
             </header>
         </div>
     )
