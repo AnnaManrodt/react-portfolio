@@ -44,3 +44,67 @@ ul {
   .prof-title{
     text-align: center;
   }
+
+  /* Media Queries for mobile responsiveness */
+@media only screen and (max-width: 768px) {
+  .prof-title {
+      font-size: 1.8rem;
+  }
+
+  .container1 {
+      flex-direction: column; /* Stack items vertically on smaller screens */
+      align-items: center;
+  }
+
+  .prof-category {
+      flex-basis: 100%; /* Each category takes full width */
+      padding: 10px;
+      text-align: left; /* Align text to the left */
+      width: 90%;
+  }
+
+  .proficiencies li {
+      font-size: 18px;
+      padding: 8px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .prof-title {
+      font-size: 1.6rem;
+  }
+
+  .container1 {
+      flex-direction: column; /* Keep stacking items vertically */
+      padding: 0 10px; /* Add some padding to prevent edge to edge content */
+  }
+
+  .prof-category {
+      flex-basis: 100%;
+      padding: 10px;
+      text-align: left;
+      width: 100%;
+  }
+
+  .proficiencies li {
+      font-size: 16px;
+      padding: 8px;
+  }
+
+  /* Adjust padding for better spacing on small screens */
+  .prof-category h4 {
+      font-size: 1.2rem;
+      margin-bottom: 10px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .prof-title {
+      font-size: 1.4rem;
+  }
+
+  .proficiencies li {
+      font-size: 14px;
+      padding: 6px;
+  }
+}

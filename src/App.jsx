@@ -6,7 +6,7 @@ import Index from './pages/Index';
 import AboutMe from './pages/AboutMe';
 import Contact from './pages/Contact';
 import Portfolio from './pages/Portfolio';
-import Resume from './pages/Resume';
+import Resume from './pages/Skills';
 
 import Header from './componets/Header'
 import Footer from './componets/Footer';

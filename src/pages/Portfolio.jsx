@@ -5,6 +5,7 @@ import harborLookoutImg from '../assets/harbor_lookout_img.jpeg'
 import dragonfruitdelights from '../assets/dfdimgPNG.jpeg'
 import taskbord from '../assets/imgs/taskboardimg.jpeg'
 import noteTaker from '../assets/imgs/notetaker.jpeg'
+import queenAndHerGaurd from '../assets/imgs/qng-imgs.jpeg'
 export default function Portfolio() {
 
 
@@ -28,7 +29,7 @@ export default function Portfolio() {
             <div>
                 <Project
                     title="The Queen and Her Guard"
-                    imageUrl="/imgs/qng-imgs.PNG" // You can use your own image
+                    imageUrl= {queenAndHerGaurd} // You can use your own image
                     link="https://choose-your-adventure-qxmy.onrender.com/" // Replace with your actual GitHub link
                     iconUrl="https://github.com/TyWalter/choose-your-adventure" // Replace with your actual GitHub URL
                 />
