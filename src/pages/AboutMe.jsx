@@ -2,7 +2,7 @@ import { useNavigate } from "react-router-dom";
 import React, { useEffect } from 'react';
 import '../css/aboutme.css'
 import { Typography } from "@mui/material";
-import myImage from '../assets/imgs/IMG_6222-min.jpeg'
+import myImage from '../assets/imgs/anna.jpg'
 export default function AboutMe() {
 
     const navigate = useNavigate();
